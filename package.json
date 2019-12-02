@@ -1,0 +1,25 @@
+{
+  "name": "sentry-insurance-notice",
+  "version": "1.0.0",
+  "description": "Sends a postcard to customers who are about to pay off equipment financed with JDF.",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node .",
+    "test": "cross-env NODE_ENV=test node ."
+  },
+  "author": {
+    "name": "Austin Gordon",
+    "email": "gordon.austin2@gmail.com",
+    "url": "https://www.austinleegordon.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@hutsoninc/utils": "^1.0.6",
+    "bluebird": "^3.7.2",
+    "bottleneck": "^2.19.5",
+    "cross-env": "^6.0.3",
+    "dotenv": "^8.2.0",
+    "lob": "^6.0.6",
+    "xlsx": "^0.15.3"
+  }
+}
